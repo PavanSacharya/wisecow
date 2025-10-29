@@ -3,7 +3,7 @@ name: Wisecow CI/CD
 on:
   push:
     branches:
-      - main  # or master, depending on your repo
+      - main  
 
 jobs:
   build-and-deploy:
