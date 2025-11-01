@@ -1,0 +1,15 @@
+apiVersion: security.kubearmor.com/v1
+kind: KubeArmorPolicy
+metadata:
+  name: ksp-block-passwd
+  namespace: default
+spec:
+  severity: 5
+  message: "Access to /etc/passwd is blocked by KubeArmor"
+  selector:
+    matchLabels:
+      app: wisecow
+  file:
+    matchPaths:
+      - path: /etc/passwd
+  action: Block

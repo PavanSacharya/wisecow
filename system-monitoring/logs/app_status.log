@@ -1,0 +1,2 @@
+2025-10-29 20:55:39,970 - ERROR - \u274c App is DOWN - HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000267C22A86E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-29 20:57:44,782 - INFO - \u2705 App is UP (200)
