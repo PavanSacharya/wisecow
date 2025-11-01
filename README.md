@@ -3,12 +3,8 @@
 This project is part of my **Accuknox DevOps Trainee Practical Assessment**.  
 It demonstrates the **containerization and deployment** of the **Wisecow** web application on a **Kubernetes cluster**, with **CI/CD automation using GitHub Actions**, and an optional **TLS setup** for secure communication.  
 
----
-
-## 📸 Output Preview  
 
 
-![wisecow-output](./output/output-1.png)  
 
 ---
 
@@ -34,6 +30,11 @@ Before you begin, ensure the following tools and dependencies are installed:
 - **Minikube** (or Kind / any Kubernetes cluster)  
 - **Git**  
 - **fortune-mod** and **cowsay** packages  
+
+## 📸 Output Preview  
+
+
+![wisecow-output](./output/output-1.png)  
 ---
 ## 🧠 Additional Scripts – Problem Statement 2
 
