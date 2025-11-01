@@ -35,7 +35,7 @@ Before you begin, ensure the following tools and dependencies are installed:
 - **Minikube** (or Kind / any Kubernetes cluster)  
 - **Git**  
 - **fortune-mod** and **cowsay** packages  
-
+---
 ## 🧠 Additional Scripts – Problem Statement 2
 
 In addition to Wisecow, this repository also includes Problem Statement 2, located in:
@@ -50,3 +50,13 @@ This contains scripts for System Health Monitoring that perform the following ta
 - **Check Disk space availability**
 - **List Running processes**
 - **Trigger alerts when thresholds are exceeded**
+
+---
+## 🧰 KubeArmor Policy (Zero Trust)
+
+A Zero-Trust KubeArmor Policy was written to enhance workload security for the Wisecow app.
+It restricts access to sensitive system files.
+
+⚠️ Note:
+During testing, due to local system configuration, I encountered issues enforcing the block access rule in KubeArmor.
+All other configurations and policies were successfully applied.
