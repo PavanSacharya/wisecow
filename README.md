@@ -7,7 +7,6 @@ It demonstrates the **containerization and deployment** of the **Wisecow** web a
 
 ## 📸 Output Preview  
 
-Below is the screenshot of the successfully running Wisecow application deployed on Kubernetes:  
 
 ![wisecow-output](./output/output-1.png)  
 
@@ -50,7 +49,11 @@ This contains scripts for System Health Monitoring that perform the following ta
 - **Check Disk space availability**
 - **List Running processes**
 - **Trigger alerts when thresholds are exceeded**
+- **Output-system_health.log**
+![wisecow-output](./output/system_health.png)  
 
+ **Output-app_status.log**
+ ![wisecow-output](./output/app_status.png)  
 ---
 ## 🧰 KubeArmor Policy (Zero Trust)
 
