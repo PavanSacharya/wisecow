@@ -45,8 +45,8 @@ system-monitoring/
 
 This contains scripts for System Health Monitoring that perform the following tasks:
 
-**Monitor CPU usage**
-**Track Memory utilization**
-**Check Disk space availability**
-**List Running processes**
-**Trigger alerts when thresholds are exceeded**
+- **Monitor CPU usage**
+- **Track Memory utilization**
+- **Check Disk space availability**
+- **List Running processes**
+- **Trigger alerts when thresholds are exceeded**
